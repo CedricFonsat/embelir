@@ -1,0 +1,120 @@
+.container{
+  display: flex;
+  width: 100vw
+}
+
+.sidebar{
+  width: 220px;
+  height: 100vh;
+  background-color: #1D1E25;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #2c2d37;
+}
+
+.logo{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid #2c2d37;
+}
+
+.menu{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.menu-item{
+  padding: 0 15px;
+  height: 60px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item p{
+  margin: 0;
+  margin-left: 10px;
+}
+
+.menu-item span{
+  margin-right: 10px;
+}
+
+.menu-item:hover{
+  /* background-color: #0C45EA; */
+  background-color: #272835;
+}
+
+.logout{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logout button{
+  background-color: inherit;
+  border: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.logout button:focus{
+   outline: none; 
+  } 
+
+.logout button:hover{
+  border: inherit;
+}
+
+/* playground ****************************************** */
+
+.playground{
+  width: 80%;
+  height: 100vh;
+  background-color: #111217;
+  /* background-color: #1D1E25;; */
+  /* background-color: rgb(14, 41, 41); */
+}
+
+.dnd-image{
+  width: 50%;
+  height: 40%;
+  background-color: #1D1E25;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.153);
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dnd-image:hover{
+  background-color: #272835;
+}
+
+.dnd-image img{
+  opacity: 0.15;
+}
+
+.dnd-image p span{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dnd-image p:nth-child(3){
+  font-weight: 200;
+}
+
+.result{
+  display: flex;
+}
